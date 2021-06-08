@@ -1,0 +1,15 @@
+{
+  "name": "ocaptcha",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lerichardson/oCaptcha.git",
+  "author": "lerichardson <litbelb1@outlook.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "server": "tsc && node src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "^4.3.2"
+  }
+}
